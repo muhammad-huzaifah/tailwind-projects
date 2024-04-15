@@ -557,6 +557,10 @@ h5 {
   display: flex;
 }
 
+.w-32 {
+  width: 8rem;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
@@ -650,6 +654,11 @@ h5 {
   padding-right: 2rem;
 }
 
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .pt-16 {
   padding-top: 4rem;
 }
@@ -688,17 +697,6 @@ h5 {
   transition-duration: 200ms;
 }
 
-.section-content {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 48rem;
-  text-align: center;
-  font-size: 1.25rem;
-  line-height: 2.25rem;
-  --tw-text-opacity: 1;
-  color: hsl(201 11% 66% / var(--tw-text-opacity));
-}
-
 .section-container {
   margin-left: auto;
   margin-right: auto;
@@ -706,6 +704,16 @@ h5 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
   text-align: center;
+}
+
+.section-content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 48rem;
+  text-align: center;
+  line-height: 2.25rem;
+  --tw-text-opacity: 1;
+  color: hsl(201 11% 66% / var(--tw-text-opacity));
 }
 
 .button-container {
@@ -753,6 +761,10 @@ body {
   body {
     background-image: url("../images/bg-header-mobile.png");
   }
+}
+
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg) brightness(101%) contrast(94%);
 }
 
 .hover\:text-strongCyan:hover {
