@@ -11,8 +11,5 @@
   "license": "MIT",
   "devDependencies": {
     "tailwindcss": "^3.0.24"
-  },
-  "dependencies": {
-    "caniuse-lite": "^1.0.30001613"
   }
 }
