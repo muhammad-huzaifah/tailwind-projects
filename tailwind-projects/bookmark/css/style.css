@@ -546,6 +546,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 3.5rem;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -689,6 +693,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 
+.bg-dots {
+  background-image: url('../images/bg-dots.svg');
+}
+
+.bg-repeat-x {
+  background-repeat: repeat-x;
+}
+
 .p-6 {
   padding: 1.5rem;
 }
@@ -782,6 +794,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-transform: uppercase;
 }
 
+.capitalize {
+  text-transform: capitalize;
+}
+
 .tracking-widest {
   letter-spacing: 0.1em;
 }
@@ -821,6 +837,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.duration-200 {
+  transition-duration: 200ms;
 }
 
 @media (min-width: 1020px) {
@@ -886,6 +906,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:mt-0 {
     margin-top: 0px;
+  }
+
+  .md\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .md\:mt-16 {
+    margin-top: 4rem;
   }
 
   .md\:flex {
